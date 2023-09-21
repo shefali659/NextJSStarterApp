@@ -1,0 +1,9 @@
+/*This is a CSS module, used to capture styles specific to a component[View Encapstulation].
+A CSS module can be imported in a tsx file as a javascript object.
+Since each css selector now is a javascript property, hyphens cannpt be used, camelCase can be used.
+*/
+
+.card{
+    padding:1rem;
+    border:1px solid #ccc;
+}
